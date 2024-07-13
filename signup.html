@@ -8,7 +8,7 @@
     <!-- signup -->
 </head>
 <body  style="background-image: url(images/cute-kid-alphabet-set_97632-581.avif)";>
-    <div class="Navall">
+    <!-- <div class="Navall">
         <div>  
             <div class="animation"> <img class="LOGO" src="images/abc_4290563.png"> </div>
           </div>
@@ -19,7 +19,7 @@
             <li><a href="contactus.html"><h2>contact Us</h2></a></li>
             <li><a href="aboutus.html"><h2>About Us</h2></a></li>
         </ul>
-    </div>
+    </div> -->
     
         <form  class="formcontener"><div>
           <img src="images/abc_4290563.png" alt="" id="img1" >
@@ -29,9 +29,12 @@
  </div>
   <div >
  <input type="text" id="name" name="name"placeholder="Enter your username" class="width">
-  <input type="email" id="email" name="email"placeholder="Enter your email" class="width">
- <input type="password" id="password" name="password"placeholder="enter your password"  class="width">  </div>  
- <button class="button11">Enter</button>
+  <input type="email" id="email" name="email"placeholder="Enter your email" class="width" >
+ <input type="password" id="password" name="password"placeholder="enter your password"  class="width"> 
+ <input type="password" id="password2" name="password"placeholder="confirm your password"  class="width"> 
+</div> 
+ <button class="button11" onclick="signup(event)">Enter</button>
+ 
  <p>Do you have an account?<a href="signin.html">  login to yor account </a></p>        
  </form>
 </div>
@@ -69,6 +72,7 @@
 </div>
 
 
-    
+   
 </body>
+<script src="signup.js"></script>
 </html>

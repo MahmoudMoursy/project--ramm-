@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- signin -->
 </head>
-<body  style="background-image: url(images/cute-kid-alphabet-set_97632-581.avif);">
-    <div class="Navall">
+<body  style="background-image: url(images/cute-kid-alphabet-set_97632-581.avif);" onload="get">
+    <!-- <div class="Navall">
         <div>  
             <div class="animation"> <img class="LOGO" src="images/abc_4290563.png"> </div>
           </div>
@@ -19,7 +19,7 @@
           <li><a href="contactus.html"><h2>contact Us</h2></a></li>
           <li><a href="aboutus.html"><h2>About Us</h2></a></li>
         </ul>
-    </div>
+    </div> -->
       <form class="formcontener" action="#" method="get">
         <div class="img-1">
           <img src="images/abc_4290563.png" alt="" id="img-1">
@@ -28,10 +28,10 @@
           <p style="text-align: center; color: chocolate;"><b>Sign in to your account</b></p>
         </div>
         <div>
-          <input type="text" id="name" name="name"placeholder="Enter your username" class="width">
+          <input type="text" id="username" name="name"placeholder="Enter your username" class="width">
            <input type="password" id="password" name="password"placeholder="enter your password"  class="width">
         </div>
-         <button class="button11">Enter</button>
+         <button class="button11" onclick="signin(event)">Enter</button>
          <p style="text-align: left;"> new user? <a href="signup.html">sign up</a></p>
       </form>
       <div class="Bar"></div>
@@ -70,5 +70,5 @@
      
       
     
-</body>
+</body><script src="/signin.js"></script>
 </html>
