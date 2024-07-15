@@ -15,49 +15,49 @@ function getProduct() {
       },
   
       {
-        image: "/images/wordGame.jpg",
+        image: "images/wordGame.jpg",
         title: "Words Game",
         type:"games",
         price: "50$"
       },//sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
       {
-          image: "/images/Story1.jpg",
+          image: "images/Story1.jpg",
           title: "The Guardians of bore -story" ,
           type:"story",
           price: "50$"
         },
         {
-          image: "/images/hippos play.jpg ",
+          image: "images/hippos play.jpg ",
           title: "Hippos Play -story",
           type:"story",
           price: "50$"
         },
         {
-          image: "/images/the cricket chirps.jpg",
+          image: "images/the cricket chirps.jpg",
           title: "Why the cricket chirps -story",
           type:"story",
           price: "50$",
         },
         {
-          image: "/images/Gemma.jpg",
+          image: "images/Gemma.jpg",
           title: "Gemma -story",
           type:"story",
           price: "50$",
         },
         {
-          image: "/images/book1.jpg",
+          image: "images/book1.jpg",
           title:"Math -book",
           type:"book",
           price: "50$"
         },
         {
-          image:"/images/book2.jpg",
+          image:"images/book2.jpg",
           title:"Back to school -book",
           type:"book",
           price: "50$",
         },
         {
-          image:"/images/book3.jpg",
+          image:"images/book3.jpg",
           title:"Learn to write -book",
           type:"book",
           price: "50$",
