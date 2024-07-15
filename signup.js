@@ -9,22 +9,20 @@ var passs=document.getElementById("password2")
 
 if(user.value.length<5){
     user.style.border="red solid 3px"
-    return false;
+    return ;
 
 }else{
     user.style.border="green solid 3px"
    
 }
+var che=(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/)
 
-
-var che=email.value.includes('@')
-
-if (che==true) {
+if (che.test(email.value)) {
   email.style.border = 'green solid 3px';
 }
  else {
   email.style.border = 'red solid 3px';
-  return false;
+  return ;
 
 }
     var cheacke =(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/)
@@ -40,9 +38,7 @@ if (che==true) {
              console.log((pass.value!==""));
         }else{
              passs.style.border=" red solid 3px";
-             return false;
-
-        
+             return ;
         }
 
     var userData={
