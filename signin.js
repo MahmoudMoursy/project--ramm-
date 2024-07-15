@@ -19,6 +19,6 @@ else{
     return;
 }
 localStorage.setItem("Locked",true)
-location.replace("index.html");
+location.assign("index.html");
 
 }
