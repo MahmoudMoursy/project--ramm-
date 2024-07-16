@@ -1,4 +1,5 @@
 var data = JSON.parse(localStorage.getItem("user"));
+
 function signin(event){
     event.preventDefault();
 var username = document.getElementById("username");

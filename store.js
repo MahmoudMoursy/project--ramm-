@@ -95,6 +95,7 @@ function getProduct() {
     var Div = document.getElementById("cards");
     Div.appendChild(div);
   }
+  
   let arrFromStorage = JSON.parse(localStorage.getItem("Cards"));
   if(arrFromStorage){
       arrOfCards = arrFromStorage;

@@ -48,5 +48,6 @@ if (che.test(email.value)) {
     }
     localStorage.setItem("user",JSON.stringify(userData));
     location.assign("signin.html")
-
 }
+console.log(a);
+var a=10;
